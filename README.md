@@ -1,1 +1,1 @@
-# SpaceTH name correction extension
+# spaceth name correction extension
