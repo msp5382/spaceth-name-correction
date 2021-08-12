@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "spaceth.co.th",
+  "version": "0.0.1",
+  "description": "Correct all spaceth.co name",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["src/inject/inject.js"]
+    }
+  ]
+}
